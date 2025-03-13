@@ -63,7 +63,7 @@ const SearchPage = () => {
     <div className="max-w-4xl mx-auto">
       <div className="bg-white shadow-md rounded-lg overflow-hidden mb-6">
         <div className="p-6">
-          <h1 className="text-2xl font-bold mb-6">Semantic Search</h1>
+          <p className="text-lg text-gray-800  mb-6"> Search the processed files</p>
 
           <form onSubmit={handleSearch} className="mb-6">
             <div className="flex flex-col md:flex-row gap-4">
@@ -87,7 +87,7 @@ const SearchPage = () => {
               <button
                 type="button"
                 onClick={() => navigate("/dashboard")}
-                className="px-6 py-2 bg-gray-200 text-gray-800 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400"
+                className="px-6 py-2 bg-gray-200 text-white-800 rounded-md hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400"
               >
                 Back to Dashboard
               </button>

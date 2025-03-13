@@ -146,7 +146,7 @@ const DashboardPage = () => {
       {/* Files Table Card */}
       <div className="bg-white shadow-md rounded-lg overflow-hidden max-w-7xl mx-auto">
         <div className="p-6">
-          <h2 className="text-xl font-semibold mb-4">
+          <h2 className="text-xl text-black font-semibold mb-4">
             Your Text Files ({files.length})
           </h2>
 

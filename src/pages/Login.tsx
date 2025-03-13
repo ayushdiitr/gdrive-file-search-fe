@@ -18,32 +18,32 @@ const Login = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden">
-      <div className="p-8">
-        <h1 className="text-2xl font-bold text-center mb-6">
-          Google Drive Semantic Search
-        </h1>
-        <p className="text-gray-600 text-center mb-8">
-          Connect your Google Drive to search your text files semantically.
-        </p>
-        <button
-          onClick={handleGoogleLogin}
-          className="w-full flex items-center justify-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-50  hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-        >
-          <div className="flex items-center ">
-            <img
-              src={GoogleIcon}
-              alt="Google"
-              className="w-6 h-6 "
-              style={{ verticalAlign: "middle" }}
-            />
-            <span style={{ verticalAlign: "middle", paddingLeft: 10 }}>
-              Sign in with Google
-            </span>
-          </div>
-        </button>
-      </div>
+    <div className="h-full flex items-center justify-center bg-gray-100">
+  <div className="max-w-md mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="p-8">
+      <p className="text-gray-600 text-center mb-8">
+        Connect your Google Drive to search your text files semantically.
+      </p>
+      <button
+        onClick={handleGoogleLogin}
+        className="w-full flex items-center justify-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-50  hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+      >
+        <div className="flex items-center">
+          <img
+            src={GoogleIcon}
+            alt="Google"
+            className="w-6 h-6"
+            style={{ verticalAlign: "middle" }}
+          />
+          <span style={{ verticalAlign: "middle", paddingLeft: 10 }}>
+            Sign in with Google
+          </span>
+        </div>
+      </button>
     </div>
+  </div>
+</div>
+
   );
 };
 
