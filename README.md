@@ -58,7 +58,7 @@ A functional web-based tool that allows users to:
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/ayushdiitr/gdrive-file-search-fe
   
 ```
 
@@ -91,7 +91,7 @@ Start the development server
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/ayushdiitr/gdrive-file-search-be
   
 ```
 
